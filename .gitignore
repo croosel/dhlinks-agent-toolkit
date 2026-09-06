@@ -1,0 +1,10 @@
+# 依赖与凭证不进仓库
+node_modules/
+mcp/dhlinks-mcp/node_modules/
+.env
+.mcp.json
+*.log
+.DS_Store
+
+# 本地打包产物
+*.zip

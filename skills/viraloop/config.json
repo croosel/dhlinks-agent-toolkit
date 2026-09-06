@@ -1,0 +1,12 @@
+{
+  "language": "zh",
+  "defaultUrl": "https://api.dh-gos.online/api",
+  "dhlinks": {
+    "platforms": [
+      "tiktok",
+      "instagram"
+    ]
+  },
+  "imageFormat": "vertical",
+  "notes": "发布与数据回看都指向 DHLinks 后端。请先在 mcp/dhlinks-mcp/.env 配置 DHLINKS_USERNAME / DHLINKS_PASSWORD，并在 DHLinks 账号里连接 TikTok / Instagram。"
+}

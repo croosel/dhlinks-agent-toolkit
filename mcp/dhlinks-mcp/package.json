@@ -1,0 +1,20 @@
+{
+  "name": "dhlinks-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DHLinks 白标社媒发布 MCP 封装：用 DHLinks 客户账号(用户名/密码)登录 api.dh-gos.online，发布/看历史/看数据。",
+  "bin": {
+    "dhlinks-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  }
+}
